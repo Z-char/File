@@ -18,5 +18,5 @@
 
 [agc20f](https://atcoder.jp/contests/agc020/tasks/agc020_f). 
 
-[record](https://www.one-tab.com/page/q7arn0zWQGOvunN9AptFig). 
+[record](https://www.one-tab.com/page/30IiG4LvSP--C-BqdzYmXg). 
 
