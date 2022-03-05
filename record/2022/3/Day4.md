@@ -48,3 +48,5 @@ g(n, m) = \sum_{i=1}^m (-1)^{m-i}{m \brack i} f(n, i)
 $$
 那么随便做即可。
 
+[Submission(0)](https://vjudge.net/solution/35212184). 
+
