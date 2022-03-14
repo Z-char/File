@@ -1,0 +1,11 @@
+{
+  "strictLineBreaks": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./asset",
+  "defaultViewMode": "source",
+  "legacyEditor": true,
+  "livePreview": false
+}
