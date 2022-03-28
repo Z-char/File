@@ -1,1 +1,90 @@
-{}
+{
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "workspace:copy-url": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "workspace:copy-path": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Q"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "shortcuts-extender:heading-0": [],
+  "shortcuts-extender:shortcut-list-items": [],
+  "shortcuts-extender:shortcut-exclamation-mark": [],
+  "shortcuts-extender:shortcut-python-code": [],
+  "shortcuts-extender:shortcut-left-square-bracket": [],
+  "shortcuts-extender:shortcut-right-square-bracket": [],
+  "shortcuts-extender:shortcut-left-curly-bracket": [],
+  "shortcuts-extender:shortcut-right-curly-bracket": [],
+  "shortcuts-extender:shortcut-At": [],
+  "shortcuts-extender:shortcut-ampersand": [],
+  "shortcuts-extender:shortcut-hash": [],
+  "shortcuts-extender:shortcut-percent": [],
+  "shortcuts-extender:shortcut-circumflex": [],
+  "shortcuts-extender:shortcut-less-than": [],
+  "shortcuts-extender:shortcut-greater-than": [],
+  "shortcuts-extender:shortcut-Vertical-Line": [],
+  "shortcuts-extender:shortcut-dollar": [],
+  "shortcuts-extender:shortcut-code": [],
+  "shortcuts-extender:shortcut-code-block": [],
+  "open-with-default-app:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ]
+}

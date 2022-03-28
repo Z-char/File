@@ -27,7 +27,7 @@ $$
 考虑如何转移，首先，不选 $i$，这就是 $f(i - 1, j, k)$，其次，选 $i$，这就比较困难了，我们来尝试一下把他拆成一些低次项(低 th)的 $f$ 来转移，我们考虑枚举 $ 1\to i - 1$ 的集合来计算贡献和：
 $$
 \begin{align}
-\sum_{t \subseteq T_{i-1}} (-1)^{t - k + 1} \binom{t - 1 + 1}{k - 1} &= \sum (-1)^{t-k+1}\l( \binom{t - 1}{k - 1} + \binom{t - 1}{k - 2} \r) \\
+\sum_{t \subseteq T_{i-1}} (-1)^{t - k + 1} \binom{t - 1 + 1}{k - 1} &= \sum (-1)^{t-k+1}\left( \binom{t - 1}{k - 1} + \binom{t - 1}{k - 2} \right) \\
 &= (-1)\sum(-1)^{t-k}\binom{t-1}{k-1} + (-1)^2 \sum (-1)^{t - (k - 1)} \binom{t - 1}{(k - 1) - 1}
 \end{align}
 $$

@@ -4,7 +4,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./asset",
+  "attachmentFolderPath": "./assets/2022-3",
   "defaultViewMode": "source",
   "legacyEditor": true,
   "livePreview": false
