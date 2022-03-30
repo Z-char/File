@@ -7,5 +7,7 @@
   "attachmentFolderPath": "./assets/2022-3",
   "defaultViewMode": "source",
   "legacyEditor": true,
-  "livePreview": false
+  "livePreview": false,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false
 }
