@@ -4,10 +4,10 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./assets/2022-3",
+  "attachmentFolderPath": "./assets/2022-4",
   "defaultViewMode": "source",
   "legacyEditor": true,
   "livePreview": false,
-  "autoPairBrackets": false,
-  "autoPairMarkdown": false
+  "autoPairBrackets": true,
+  "autoPairMarkdown": true
 }

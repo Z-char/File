@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "record/2022-3.md",
+            "file": "record/2022-4.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "record/2022-3.md",
+            "file": "record/2022-4.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "record/2022-3.md",
+                "file": "record/2022-4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "record/2022-3.md"
+                "file": "record/2022-4.md"
               }
             }
           }
@@ -124,15 +124,15 @@
   },
   "active": "c82f0c998085de13",
   "lastOpenFiles": [
+    "record/2022-4.md",
     "record/2022-3.md",
+    "record/assets/2022-3/image-20220331174804977.png",
     "record/2022-03-14.md",
     "record/2022-03-12.md",
     "training/2022-3.md",
     "training/浅谈一类格路计数问题.md",
     "training/筛法.md",
     "training/杜教筛.md",
-    "training/assets/sol.pdf",
-    "training/assets/Pasted image 20220315181221.png",
-    "training/assets/浅谈一类格路计数问题/image-20220316100726375.png"
+    "training/assets/sol.pdf"
   ]
 }
