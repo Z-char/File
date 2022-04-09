@@ -22,5 +22,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
         with:
-          source-repo: git@gitee.com:Z_char/file.git
+          source-repo: git@github.com:Z-char/File.git
           destination-repo: git@gitee.com:Z_char/file.git
