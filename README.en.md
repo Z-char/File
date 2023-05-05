@@ -1,0 +1,1 @@
+Record my monotonous simple life with meaningless computer programs. "What is the meaning of your code?" Perhaps the process gives its answer.
