@@ -184,6 +184,34 @@ std::string mthp(std::string sa, std::string sb) {
 	return mth;
 }
 
+char sure[6];
+bool noway[6][27]; // i cannot be j
+int higherthan[27];
+
+bool Check(std::string s) {
+	for (int i = 0; i < 5; ++i) {
+		if (sure[i] && s[i] != sure[i]) {
+			return false;
+		}
+		for (int t = 0; t < 26; ++t) {
+			if (noway[i][t] && s[i] - 'a' == t) {
+				return false;
+			}
+		}
+	}
+	std::vector<int> cnt(26);
+	for (int i = 0; i < 5; ++i) {
+		if (!sure[i]) {
+			++cnt[s[i] - 'a'];
+		}
+	}
+	for (int i = 0; i < 26; ++i) {
+		if (cnt[i] < higherthan[i]) {
+			return false;
+		}
+	}
+	return true;
+}
 
 signed main() {
 	// std::ios::sync_with_stdio(false);
@@ -195,13 +223,71 @@ signed main() {
 	// test();
 
 	cktime("start");
+	puts("if you have any exculuded letters(input 0 to exit):");
+	while (true) {
+		char x;
+		std::cin >> x;
+		if (x == '0') {
+			break;
+		} else if ('a' <= x && x <= 'z') {
+			int t = x - 'a';
+			for (int i = 0; i < 5; ++i) {
+				noway[i][t] = 1;
+			}
+		} else if ('A' <= x && x <= 'Z') {
+			int t = x - 'A';
+			for (int i = 0; i < 5; ++i) {
+				noway[i][t] = 1;
+			}
+		}
+	}
+	puts("if you have any sure letters(input 0 0 to exit, letter position):");
+	while (true) {
+		char x; int p;
+		std::cin >> x >> p;
+		--p;
+		if (x == '0') {
+			break;
+		} else if ('a' <= x && x <= 'z') {
+			sure[p] = x;
+		} else if ('A' <= x && x <= 'Z') {
+			sure[p] = x - 'A' + 'a';
+		}
+	}
+	puts("if you have any maybe letters(input 0 0 to exit, letter count):");
+	while (true) {
+		char x; int c;
+		std::cin >> x >> c;
+		if (x == '0') {
+			break;
+		} else {
+			int tr = 0;
+			if ('a' <= x && x <= 'z') {
+				tr = x - 'a';
+				higherthan[x - 'a'] = c;
+			} else if ('A' <= x && x <= 'Z') {
+				tr = x - 'A';
+				higherthan[x - 'A'] = c;
+			}
+			puts("this letter cannot be in how many position?");
+			std::cin >> c;
+			puts("please input these positions:");
+			for (int i = 1; i <= c; ++i) {
+				int p;
+				std::cin >> p; --p;
+				noway[p][tr] = 1;
+			}
+		}
+	}
 	scan();
 	pre();
 	cktime("pre match");
+
 	std::vector<int> now;
 	for (int i = 1; i <= N; ++i) {
-		now.push_back(i);
+		if (Check(s[i])) now.push_back(i);
 	}
+
 	rt = build_tree(now, 1);
 	cktime("finish the stratagy tree");
 	std::cerr << "max dep: " << mdep << '\n';
